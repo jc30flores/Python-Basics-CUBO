@@ -86,23 +86,23 @@ Define the variable sales_tax and set it equal to 8.8%.
 
 24- For today we have an offer, if you buy 2 Luxurious Lamps you get one with a 20% discount, and the Lovely LoveSeat is 15% off. create a new variable and discount the 20% to the luxurious_lamp_price, and then create another variable and discount the 15% to the lovely_loveseat_price.
 
-22- Our customer has decided they are going to purchase 3 of our Luxurious Lamps! and 5 of our Lovely LoveSeat Add the prices to customer_two_total.
+25- Our customer has decided they are going to purchase 3 of our Luxurious Lamps! and 5 of our Lovely LoveSeat Add the prices to customer_two_total.
 
-25- Do the same step 23 with the descriptions of Lovely LoveSeat and Luxurious Lamp.
+26- Do the same step 23 with the descriptions of Lovely LoveSeat and Luxurious Lamp.
 
-26- They’re ready to check out! Let’s begin by calculating sales tax. Create a variable called customer_two_tax and set it equal to customer_two_total times sales_tax.
+27- They’re ready to check out! Let’s begin by calculating sales tax. Create a variable called customer_two_tax and set it equal to customer_two_total times sales_tax.
 
-27- Add the sales tax to the customer’s total cost.
+28- Add the sales tax to the customer’s total cost.
 
-28- Let’s start printing up their receipt! Begin by printing out the heading for their itemization. Print the phrase "Customer Two Items:".
+29- Let’s start printing up their receipt! Begin by printing out the heading for their itemization. Print the phrase "Customer Two Items:".
 
-29- Print customer_Two_itemization.
+30- Print customer_Two_itemization.
 
-30- Now add a heading for their total cost: Print out "Customer Two Total:"
+31- Now add a heading for their total cost: Print out "Customer Two Total:"
 
-31- Now print out their total! Our Second customer now has a receipt for the things they purchased.
+32- Now print out their total! Our Second customer now has a receipt for the things they purchased.
 
-32- Congratulations! We created our catalog and served our two customers. We used our knowledge of strings and numbers to create and update variables. We were able to print out an itemized list and a total cost for our customer. Lovely!
+33- Congratulations! We created our catalog and served our two customers. We used our knowledge of strings and numbers to create and update variables. We were able to print out an itemized list and a total cost for our customer. Lovely!
  
 
 
