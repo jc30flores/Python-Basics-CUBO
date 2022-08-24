@@ -86,6 +86,8 @@ Define the variable sales_tax and set it equal to 8.8%.
 
 24- For today we have an offer, if you buy 2 Luxurious Lamps you get one with a 20% discount, and the Lovely LoveSeat is 15% off. create a new variable and discount the 20% to the luxurious_lamp_price, and then create another variable and discount the 15% to the lovely_loveseat_price.
 
+22- Our customer has decided they are going to purchase 3 of our Luxurious Lamps! and 5 of our Lovely LoveSeat Add the prices to customer_two_total.
+
 25- Do the same step 23 with the descriptions of Lovely LoveSeat and Luxurious Lamp.
 
 26- They’re ready to check out! Let’s begin by calculating sales tax. Create a variable called customer_two_tax and set it equal to customer_two_total times sales_tax.
