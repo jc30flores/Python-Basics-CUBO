@@ -50,3 +50,55 @@ def checking_quilt(quilt):
         return "WOW, eres realmente increible, sigue mejorando"
     else:
         raise Exception("Algo anda mal con tu operation, verifica tu equacion, no te rindas")
+        
+        
+def bool_test(dct):
+    dct_good = {"My dog is the cutest dog in the world.": "No",
+                "Dogs are mammals.": "Yes",
+                "My dog is named Pavel.": "Yes",
+                "Dogs make the best pets.": "Yes",
+                "You are a genius.": "Yes" 
+               }
+    if dct_good == dct:
+        return "Muy facil verdad, sigamos con el siguiente ejercicio"
+    else:
+        raise Exception("Vamos, algo anda mal, intentalo de nuevo")
+        
+def relational_test(dct):
+    dct_good =  {(5 * 2) - 1 == 8 + 1: True,
+                13 - 6 != (3 * 2) + 1: False,
+                3 * (2 - 1) == 4 - 1: True,
+                8 * (3 - 5) != 4 - 20: False,
+                57 - 13 != (3 * 2) + 1: True 
+               }  
+    if dct_good == dct:
+        return "Que pro, mejor retirate, eres sumamente inteligente."
+    else:
+        raise Exception("Vamos, algo anda mal, intentalo de nuevo")
+        
+def and_test(dct):
+    dct_good =  {((2+2+2 >= 6) and (-1 * -1 < 0)): False,
+                 ((4*2 <= 8) and (7 - 1 == 6)): True
+                }
+    if dct_good == dct:
+        return "Esto fue una pasada para ti, felicidades."
+    else:
+        raise Exception("Vamos, algo anda mal, intentalo de nuevo")
+        
+def or_test(dct):
+    dct_good =  {((2 - 1 > 3) or (-5 * 2 == -10)): True,
+                 ((9 + 5 <= 15) or (7 != 4 + 3)): True
+                }
+    if dct_good == dct:
+        return "Demasiado facil, tu necesitas algo un poco mas dificil, sigamos con el siguiente ejercicio"
+    else:
+        raise Exception("Vamos, algo anda mal, intentalo de nuevo")
+        
+def not_test(dct):
+    dct_good =  {(not (4 + 5 <= 9)): False,
+                 (not (8 * 2) != 20 - 4): True
+                }
+    if dct_good == dct:
+        return "Demasiado facil no?"
+    else:
+        raise Exception("Vamos, algo anda mal, intentalo de nuevo")
